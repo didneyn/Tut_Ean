@@ -1,5 +1,7 @@
 package solucion_talleres
 
+import java.util.Calendar
+
 fun main() {
     start()
 }
@@ -35,7 +37,6 @@ fun uno () {
         println("************************************")
         println("Ingrese una letra desde la a hasta la f")
         println("Ingrese s para salir")
-        println("Salir = 4")
         println("Ingrese una opción")
 
         var op = readLine()!!.toString();
@@ -58,7 +59,6 @@ fun dos () {
         println("************************************")
         println("Ingrese una letra desde la a hasta la c")
         println("Ingrese s para salir")
-        println("Salir = 4")
         println("Ingrese una opción")
 
         var op = readLine()!!.toString();
@@ -78,7 +78,6 @@ fun tres () {
         println("************************************")
         println("Ingrese una letra desde la a hasta la q")
         println("Ingrese s para salir")
-        println("Salir = 4")
         println("Ingrese una opción")
         var op = readLine()!!.toString();
         when (op) {
@@ -145,33 +144,95 @@ fun tres_a(){
     var a : Double = readLine()!!.toDouble()
     print("Ingrese la altura: ")
     var b : Double = readLine()!!.toDouble()
-    var resultato= ((a*b)/2)
-    println("Punto 3-a:\nEl Area del triangulo es = $resultato")
-    var t :String
+    var resultado= ((a*b)/2)
+    println("Punto 3-a:\nEl Area del triangulo es = $resultado")
     continuar()
 }
 fun tres_b(){
     //Si alquilar una bicicleta tiene cierto valor y puede transportar dos personas, determine cuántas bicicletas
     //necesito y cuánto dinero voy a gastar en alquilarlas, para transportar a todos los estudiantes de la
     //universidad.
-
+    println("************************************")
+    println("Alquiler de bicicleta")
+    println("************************************")
+    print("Ingrese el valor de la hora: ")
+    var valorHora = readLine()!!.toDouble()
+    print("Ingrese la cantidad de estudiantes: ")
+    var estudiantes = readLine()!!.toInt()
+    if ( estudiantes % 2 == 0 )
+        estudiantes++
+    var resultado = (estudiantes/2)*valorHora
+    println("Punto 3-b:\npara transportar $estudiantes estudiantes se gasta un total de = $resultado por hora")
+    continuar()
 }
 fun tres_c(){
     //Según el DANE, el número de desempleados corresponde al 8.15% de la población activa. Escriba una
     //función que permita determinar cuántas personas desempleadas hay actualmente en Colombia.
+    println("************************************")
+    println("8.15% Desempleo en colombia")
+    println("************************************")
+    print("Total de personas en colombia: ")
+    var personas = readLine()!!.toDouble()
+
+
+    var resultado = personas * 0.0815
+    println("Punto 3-c:\n El total de personas desempleadas en colombia es de = $resultado")
+    continuar()
 }
 fun tres_d(){
     //Se desea determinar cuántos dólares se puede adquirir con cierta cantidad de pesos colombianos.
+    println("************************************")
+    println("tasa de cambio dolar")
+    println("************************************")
+    print("Tasa del dolar hoy: ")
+    var dollar = readLine()!!.toDouble()
+    print("cantidad de pesos a convertir: ")
+    var pesos = readLine()!!.toDouble()
+
+
+    var resultado = pesos/dollar
+    println("Punto 3-d:\n Con esos pesos puedes comprar un total de = $resultado dolares")
+    continuar()
 }
 fun tres_e(){
     //Una empresa que contrata personal requiere determinar la edad de las personas que solicitan trabajo,
     //pero cuando se les realiza la entrevista sólo se les pregunta el año en que nacieron. Realice el algoritmo
     //para solucionar este problema.
+    println("************************************")
+    println("Calcular Edad")
+    println("************************************")
+    print("Ingrese el año de nacimiento: ")
+    var ano = readLine()!!.toInt()
+    var actualAno = Calendar.getInstance().get(Calendar.YEAR);
+
+    var resultado = actualAno-ano
+    println("Punto 3-e:\n La persona tiene un total = $resultado años")
+    continuar()
 }
 fun tres_f(){
     //Un estacionamiento requiere determinar el cobro que debe aplicar a las personas que lo utilizan. Considere
     //que el cobro es con base en las horas que lo disponen y que las fracciones de hora se toman como completas
     //yrealice una función que permita determinar el cobro.
+    println("************************************")
+    println("Estacionamiento")
+    println("************************************")
+    print("Ingrese el precio de la hora: ")
+    var precioHora = readLine()!!.toDouble()
+    print("Ingrese el precio de la fracción: ")
+    var precioFraccion = readLine()!!.toDouble()
+
+    print("Ingrese la hora la cantidad de horas: ")
+    var horas = readLine()!!.toInt()
+    print("Ingrese la hora la cantidad de minutos: ")
+    var minutos = readLine()!!.toInt()
+
+    if(minutos % 15 != 0){
+        minutos+=15-(minutos % 15)
+    }
+
+    var resultado = (precioHora*horas)+(precioFraccion*(minutos/15))
+    println("Punto 3-f:\n Debe pagar un total de = $resultado ")
+    continuar()
 }
 fun tres_g(){
     //Pinturas “La brocha gorda” requiere determinar cuánto cobrar por trabajos de pintura. Considere que se
@@ -218,14 +279,45 @@ fun tres_n(){
 fun tres_o(){
     //Se sabe que una batería de celular contamina 175 litros de agua. ¿Cuántos litros de agua serán contaminados
     //por la población de una ciudad en un año si cada persona utiliza 2 baterías al semestre?
+    println("************************************")
+    println("Contaminacion de baterias")
+    println("************************************")
+    print("Ingrese la cantidad de personas: ")
+    var personas = readLine()!!.toInt()
+    var resultado = (personas*2)*175
+    println("Punto 3-o:\n Se contaminaria un total de  = $resultado litros de agua en un año")
+    continuar()
 }
 fun tres_p(){
     //Mi proveedor de Internet me asegura que mi conexión es de 4 megabytes por segundo. Escriba una función
     //que permita determinar cuántos minutos y segundos debo esperar para descargar la última película de La
     //Mujer Maravilla.
+    println("************************************")
+    println("Tiempo de descarga")
+    println("************************************")
+    print("Ingrese la cantidad de megabits de la pelicula: ")
+    var tamaño = readLine()!!.toDouble()
+
+    var resultado = tamaño/4
+    var segundos = resultado%60
+    resultado = (resultado-segundos)/60
+    println("Punto 3-p:\n Se demora un total de = $resultado minutos con $segundos segundos")
+    continuar()
 }
 fun tres_q(){
+    println("************************************")
+    println("Valor Presente")
+    println("************************************")
+    print("ingrese c: ")
+    var c = readLine()!!.toDouble()
+    print("ingrese t: ")
+    var t = readLine()!!.toDouble()
+    print("ingrese n: ")
+    var n = readLine()!!.toDouble()
 
+    var resultado = c/Math.pow((1+t),n)
+    println("Punto 3-q:\n El valor presente es de = $resultado")
+    continuar()
 }
 fun continuar(){
     print("Presione una tecla para continuar")
