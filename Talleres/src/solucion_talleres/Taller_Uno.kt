@@ -173,8 +173,6 @@ fun tres_c(){
     println("************************************")
     print("Total de personas en colombia: ")
     var personas = readLine()!!.toDouble()
-
-
     var resultado = personas * 0.0815
     println("Punto 3-c:\n El total de personas desempleadas en colombia es de = $resultado")
     continuar()
@@ -188,8 +186,6 @@ fun tres_d(){
     var dollar = readLine()!!.toDouble()
     print("cantidad de pesos a convertir: ")
     var pesos = readLine()!!.toDouble()
-
-
     var resultado = pesos/dollar
     println("Punto 3-d:\n Con esos pesos puedes comprar un total de = $resultado dolares")
     continuar()
@@ -204,7 +200,6 @@ fun tres_e(){
     print("Ingrese el año de nacimiento: ")
     var ano = readLine()!!.toInt()
     var actualAno = Calendar.getInstance().get(Calendar.YEAR);
-
     var resultado = actualAno-ano
     println("Punto 3-e:\n La persona tiene un total = $resultado años")
     continuar()
@@ -225,11 +220,9 @@ fun tres_f(){
     var horas = readLine()!!.toInt()
     print("Ingrese la hora la cantidad de minutos: ")
     var minutos = readLine()!!.toInt()
-
     if(minutos % 15 != 0){
         minutos+=15-(minutos % 15)
     }
-
     var resultado = (precioHora*horas)+(precioFraccion*(minutos/15))
     println("Punto 3-f:\n Debe pagar un total de = $resultado ")
     continuar()
@@ -237,20 +230,61 @@ fun tres_f(){
 fun tres_g(){
     //Pinturas “La brocha gorda” requiere determinar cuánto cobrar por trabajos de pintura. Considere que se
     //cobra por m2 y realice una funciòn que le permita saber cuánto cobrar a un cliente.
+    println("************************************")
+    println("La brocha gorda")
+    println("************************************")
+    print("Ingrese el valor del metro cuadrado: ")
+    var valor = readLine()!!.toInt()
+    print("Ingrese la cantidad de metros cuadrados: ")
+    var metros = readLine()!!.toInt()
+    var resultado = valor*metros
+    println("Punto 3-g:\n Se debe cobrar un total de = $resultado")
+    continuar()
 }
 fun tres_h(){
     //Se requiere determinar el tiempo que tarda una persona en llegar de una ciudad a otra en bicicleta,
     //considerando que lleva una velocidad constante. Realice una función para tal fin
+    println("************************************")
+    println("Tiempo de trayecto")
+    println("************************************")
+    print("Ingrese la velocidad: ")
+    var velocidad = readLine()!!.toDouble()
+    print("Ingrese la distancia entre las ciudades: ")
+    var distancia = readLine()!!.toDouble()
+    var resultado = distancia/velocidad
+    println("Punto 3-h:\n Se gastaria un total de = $resultado horas")
+    continuar()
 }
 fun tres_i(){
     //Realice un algoritmo para determinar cuánto pagará finalmente una persona por un artículo equis,
     //considerando que tiene un descuento de 5%, y debe pagar 19% de IVA (debe retornar el precio con descuento y
     //el precio final).
+    println("************************************")
+    println("Pago por articulo")
+    println("************************************")
+    print("Ingrese el precio del articulo: ")
+    var precio = readLine()!!.toDouble()
+    var descuento=precio*0.95
+    var total=descuento*1.19
+    println("Punto 3-i:\n El articulo con descuento es de = $descuento \n debe pagar un total de $total con iva")
+    continuar()
 }
 fun tres_j(){
     //Realice una función para determinar la nota final que obtendrá un alumno considerando que realiza tres
     //exámenes, de los cuales el primero y el segundo tienen una ponderación de 25%, mientras que el tercero de
     //50%.
+    println("************************************")
+    println("nota final")
+    println("************************************")
+    print("Ingrese la nota del primer examen: ")
+    var examen1 = readLine()!!.toDouble()
+    print("Ingrese la nota del segundo examen: ")
+    var examen2 = readLine()!!.toDouble()
+    print("Ingrese la nota del tercer examen: ")
+    var examen3 = readLine()!!.toDouble()
+    var total= ((examen1+examen2)*0.25)+(examen3*0.5)
+    println("Punto 3-j:\n La nota final es de $total")
+    continuar()
 }
 fun tres_k(){
     //Se tiene el nombre y la edad de tres personas. Se desea saber el nombre y la edad de la persona de menor
@@ -269,6 +303,17 @@ fun tres_l(){
 }
 fun tres_m(){
     //Escriba una función que halle el volumen de un cono
+    println("************************************")
+    println("volumen de un cono")
+    println("************************************")
+    print("Ingrese la altura: ")
+    var altura = readLine()!!.toDouble()
+    print("Ingrese el radio: ")
+    var radio = readLine()!!.toDouble()
+
+    var total= (1/3)* altura * Math.PI * Math.pow(radio,2.0)
+    println("Punto 3-j:\n El volumen es = $total")
+    continuar()
 }
 fun tres_n(){
     //En la universidad vamos a conectar los diversos computadores que hay en una sala de cómputo con cables. Se
