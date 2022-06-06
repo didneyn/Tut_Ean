@@ -1,6 +1,6 @@
 package solucion_talleres
 
-import java.util.Calendar
+import java.util.*
 
 fun main() {
     start()
@@ -107,16 +107,54 @@ fun tres () {
 }
 
 fun uno_a(){
+    println("************************************")
+    println("1-a")
+    println("************************************")
+    print("Ingrese la x: ")
+    var x : Double = readLine()!!.toDouble()
+    print("Ingrese la m: ")
+    var m : Double = readLine()!!.toDouble()
+    print("Ingrese la n: ")
+    var n : Double = readLine()!!.toDouble()
 
+    var resultado= Math.sqrt(Math.pow( (x-m) ,2.0)/(n-1))
+    println("Punto 1-a:\nEl resultado es = $resultado")
+    continuar()
 }
 fun uno_b(){
+    println("************************************")
+    println("1-b")
+    println("************************************")
+    print("Ingrese la y: ")
+    var y : Double = readLine()!!.toDouble()
 
+    var resultado= -(Math.pow(y,3.0)-1)/((y+1)-(Math.sqrt(y+1)))
+    println("Punto 1-b:\nEl resultado es = $resultado")
+    continuar()
 }
 fun uno_c(){
+    println("************************************")
+    println("1-c")
+    println("************************************")
+    print("Ingrese la x: ")
+    var x : Double = readLine()!!.toDouble()
 
+    var resultado= x *  Math.pow((Math.pow(x,2.0)+1),3.0)
+    println("Punto 1-c:\nEl resultado es = $resultado")
+    continuar()
 }
 fun uno_d(){
+    println("************************************")
+    println("1-d")
+    println("************************************")
+    print("Ingrese la x: ")
+    var x : Double = readLine()!!.toDouble()
+    print("Ingrese la n: ")
+    var n : Double = readLine()!!.toDouble()
 
+    var resultado= 1-((Math.pow(x-2, 1.0 / n))/Math.pow(x,3.0))
+    println("Punto 1-d:\nEl resultado es = $resultado")
+    continuar()
 }
 fun uno_e(){
 
@@ -126,13 +164,36 @@ fun uno_f(){
 }
 
 fun dos_a(){
-
+    println("************************************")
+    println("2-a")
+    println("************************************")
+    println("30+8*3/6-4%6")
+    println("30+"+(8*3)+"/6-4%6")
+    println("30+"+(8*3)+"/6-"+4%6)
+    println("30+"+(8*3)/6+"-"+4%6)
+    println("30+"+(((8*3)/6)-4%6));
+    println(30+(((8*3)/6)-4%6));
+    continuar()
 }
 fun dos_b(){
-
+    println("************************************")
+    println("2-b")
+    println("************************************")
+    println("30.0 / 20.0 -2.5 * 3.0")
+    println(""+(30.0 / 20.0) + " -2.5 * 3.0")
+    println(""+(30.0 / 20.0) + "-"+(2.5 * 3.0))
+    println((30.0 / 20.0) -(2.5 * 3.0))
+    continuar()
 }
 fun dos_c(){
-
+    println("************************************")
+    println("2-c")
+    println("************************************")
+    println("8/4/2*6")
+    println(""+(8/4)+"/2*6")
+    println(""+(8/4)/2+"*6")
+    println(8/4/2*6)
+    continuar()
 }
 
 fun tres_a(){
