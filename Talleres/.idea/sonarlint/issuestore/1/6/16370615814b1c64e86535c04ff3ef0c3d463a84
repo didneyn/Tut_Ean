@@ -1,0 +1,35 @@
+
+jkotlin:S100m"NRename function "uno_a" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(Àãğºúÿÿÿÿ
+jkotlin:S100|"NRename function "uno_b" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(Ë…ÒŸùÿÿÿÿ
+fkotlin:S100‡"NRename function "uno_c" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(«†ùÙ
+kkotlin:S100’"NRename function "uno_d" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(¥–Œ™üÿÿÿÿ
+fkotlin:S100Ÿ"NRename function "uno_e" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(ˆ¸—§
+fkotlin:S100¢"NRename function "uno_f" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(””’û
+fkotlin:S100¦"NRename function "dos_a" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(º„ı„
+fkotlin:S100²"NRename function "dos_b" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(º¼•å
+kkotlin:S100¼"NRename function "dos_c" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(œ¨ßöÿÿÿÿÿ
+gkotlin:S100Ç"ORename function "tres_a" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(ÿí
+gkotlin:S100Ô"ORename function "tres_b" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(’Ï›®
+gkotlin:S100å"ORename function "tres_c" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(îôøª
+lkotlin:S100ñ"ORename function "tres_d" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(µÎÑÃùÿÿÿÿ
+gkotlin:S100ş"ORename function "tres_e" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(ü¡¯®
+lkotlin:S100Œ"ORename function "tres_f" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(‡•¸´ûÿÿÿÿ
+gkotlin:S100£"ORename function "tres_g" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(µÉ—
+lkotlin:S100±"ORename function "tres_h" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(ì¤½­ÿÿÿÿÿ
+gkotlin:S100¿"ORename function "tres_i" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(ä–ä
+gkotlin:S100Í"ORename function "tres_j" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(õ¡š›
+gkotlin:S100Ş"ORename function "tres_k" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(—÷·†
+lkotlin:S100â"ORename function "tres_l" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(¿·Öõüÿÿÿÿ
+lkotlin:S100í"ORename function "tres_m" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(Ì”Øîûÿÿÿÿ
+gkotlin:S100û"ORename function "tres_n" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(©°¤µ
+gkotlin:S100"ORename function "tres_o" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(Ÿ”ä¿
+lkotlin:S100"ORename function "tres_p" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(Ş­ôÉùÿÿÿÿ
+lkotlin:S100"ORename function "tres_q" to match the regular expression ^[a-zA-Z][a-zA-Z0-9]*$(İõÙøşÿÿÿÿ
+~kotlin:S1192"fDefine a constant instead of duplicating this literal "************************************" 46 times.(õ˜ÏÁ
+lkotlin:S1192"TDefine a constant instead of duplicating this literal "Ingrese una opciÃ³n" 4 times.(°œ»±
+mkotlin:S1192'"UDefine a constant instead of duplicating this literal "Ingrese s para salir" 3 times.(ú·¢Ğ
+ykotlin:S11924"\Define a constant instead of duplicating this literal "Ingrese una opcion correcta" 3 times.(¬Í­³ıÿÿÿÿ
+gkotlin:S1192q"ODefine a constant instead of duplicating this literal "Ingrese la x: " 3 times.(ÍŞ€
+pkotlin:S117•"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(§»Üşùÿÿÿÿ
+skotlin:S1186Ÿ"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ˆ¸—§
+skotlin:S1186¢"ZAdd a nested comment explaining why this function is empty or complete the implementation.(””’û
