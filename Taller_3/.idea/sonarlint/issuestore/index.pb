@@ -1,6 +1,8 @@
 
-N
-src/main/kotlin/Ejercicio12.kt,6/8/68c5cbfb63e1a8b3378ba3af7f89e1f0edc50966
+M
+src/main/kotlin/Ejercicio1.kt,d/3/d31457487240cf3ffe6385c940673d5592254031
+M
+src/main/kotlin/Ejercicio2.kt,6/4/648085536f595568bd2a0743ad32f5d67d64fbc4
 M
 src/main/kotlin/Ejercicio3.kt,b/1/b1159e477dbd3cd0d9a46593035cb5966d2ce864
 M
