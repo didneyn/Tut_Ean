@@ -1,13 +1,5 @@
 fun main() {
     var precio:Double
-
-
-    //Ahora, escriba un programa que permita leer el precio devarioslibros(finalizarcuandoelprecioesceroonegativo)
-    // y mostrar para cada libro, el precio neto (usando la funcióndesarrolladaanteriormente)
-
-    /**
-     * Se realiza un Do while porque se pide que se muestre el precio neto para cada libro
-     */
     do{
         println("¿Cual es el precio del libro: ")
         precio = readln()!!.toDouble()

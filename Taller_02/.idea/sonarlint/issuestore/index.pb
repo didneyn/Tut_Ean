@@ -19,3 +19,7 @@ N
 src/main/kotlin/Ejercicio10.kt,a/2/a240d22756bfe0abdf4a135ddd9bc4db835ef72f
 N
 src/main/kotlin/Ejercicio11.kt,6/a/6ab88d07d216c965033409ac09a53c15ebc9cc51
+T
+$src/main/kotlin/Secuencia_numeros.kt,4/9/4936cd9c58f253645fe87025ced28a28b7f45ffe
+M
+src/main/kotlin/Ejercicio2.kt,6/4/648085536f595568bd2a0743ad32f5d67d64fbc4
