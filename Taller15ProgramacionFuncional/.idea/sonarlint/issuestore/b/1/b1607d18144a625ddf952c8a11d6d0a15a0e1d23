@@ -1,23 +1,12 @@
 
-Fkotlin:S1172…"(Remove these unused function parameters.(…¿¼Åûÿÿÿÿ
-Fkotlin:S1172Œ"-Remove this unused function parameter "muns".(Ò®’¦
-Fkotlin:S1172–"-Remove this unused function parameter "muns".(•¦¨¨
-Kkotlin:S1172¡"2Remove this unused function parameter "productos".(£óÛ²
-Fkotlin:S1172©"(Remove these unused function parameters.(©§Û”üÿÿÿÿ
-Akotlin:S1172³"(Remove these unused function parameters.(é©ıª
-Lkotlin:S1172¼".Remove this unused function parameter "prods".(Ö£§üÿÿÿÿ
-Lkotlin:S1172Ä".Remove this unused function parameter "prods".(ğ»Èúÿÿÿÿ
-Lkotlin:S1172Ì".Remove this unused function parameter "rects".(»î³Éıÿÿÿÿ
-Lkotlin:S1172Ğ".Remove this unused function parameter "rects".(¥ÌğÌøÿÿÿÿ
-Lkotlin:S1172Ô".Remove this unused function parameter "rects".(ÔŒÉËüÿÿÿÿ
-Fkotlin:S1172Ù"(Remove these unused function parameters.(ÊİÀ–şÿÿÿÿ
-Ckotlin:S1172á"*Remove this unused function parameter "t".(ø«×ƒ
-Hkotlin:S1172å"*Remove this unused function parameter "t".(¬ÔÜ­ıÿÿÿÿ
-Qkotlin:S1172é"3Remove this unused function parameter "triangulos".(€’È÷ÿÿÿÿÿ
-Pkotlin:S1135ï"2Complete the task associated to this TODO comment.(°çøëùÿÿÿÿ
-Lkotlin:S1481U"/Remove this unused "porcentaje" local variable.(ÊÉşÿÿÿÿ
-Jkotlin:S1481T"-Remove this unused "cantidad" local variable.(Èµƒúÿÿÿÿ
+Pkotlin:S1135õ"2Complete the task associated to this TODO comment.(°çøëùÿÿÿÿ
+Lkotlin:S1481S"/Remove this unused "porcentaje" local variable.(ÊÉşÿÿÿÿ
+Jkotlin:S1481R"-Remove this unused "cantidad" local variable.(Èµƒúÿÿÿÿ
 2kotlin:S1128"Remove this unused import.(Ğ¨ù„
 7kotlin:S1128"Remove this unused import.(ÄôÔÖÿÿÿÿÿ
 ekotlin:S117"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(úë¥
 ekotlin:S117"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(Æø…ú
+qkotlin:S117„"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(’—ş8óí¯Ş•0
+rkotlin:S117Ä"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(àŸÆò8£ë½Ş•0
+wkotlin:S117Å"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(óıİâøÿÿÿÿ8¥ë½Ş•0
+wkotlin:S117Ò"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(µë¶ìÿÿÿÿÿ8êŞ¾Ş•0

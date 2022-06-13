@@ -6,7 +6,6 @@ fun main() {
     }
 
 }
-
 fun factorial(num:Int):Int{
     var facto:Int=1
     for(i in 1 .. num){

@@ -27,6 +27,11 @@ data class pendulo2(
 )
 
 fun main() {
-    var x = pendulo(2.0,2.0)
+    print("Ingrese la longitud del pendulo: ")
+    var l = readln().toDouble()
+    print("Ingrese la aceleracion del pendulo: ")
+    var a = readln().toDouble()
+    var x = pendulo(l,a)
     println(  x.preriodoOcilacion() )
+    println("El periodo del pendulo de longitud ${x.getLongitud()} y aceleracion ${x.getAceleracion()} es ${x.preriodoOcilacion()}")
 }
