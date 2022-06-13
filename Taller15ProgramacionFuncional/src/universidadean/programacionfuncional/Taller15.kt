@@ -241,7 +241,7 @@ fun metodo20(triangulos: IList<Triangulo>): IList<Double> {
 }
 
 fun metodo21(triangulos: IList<Triangulo>): IList<Int> {
-    fun esIsosceles(t: Triangulo) = t.lado1 == t.lado2 || t.lado2 == t.lado3 || t.lado1 == t.lado3
+    fun esIsosceles(t: Triangulo) = t.lado1 == t.lado2 || t.lado1 == t.lado3|| t.lado2 == t.lado3
     //TODO("Obtener la lista de identificadores de aquellos triangulos isosceles cuya área no supere 10")
     return triangulos.filter { esIsosceles(it) && areaTriangulo(it) <= 10.0 }.map { it.id }
 }
